@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* Default styles for navigation */
+.navigation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 0.7rem;
+    justify-content: space-between;
+}
+
+.nav-first {
+    display: flex;
+}
+
+#logo {
+    margin-right: 2rem;
+}
+
+
+.nav-item {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+
+img {
+    /* width: 100%; */
+    height: 100%;
+    width: 100%;
+}
+
+.first {
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    gap: 0.5rem;
+    /* border: 1px solid green; */
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .card-holder {}
+}
+
+@media screen and (max-width: 320px) {
+    .nav-item {
+        display: none;
+    }
+
+    .card-holder {
+        width: 15rem;
+
+        gap: 0;
+        flex-direction: column;
+
+    }
+
+    .card {
+        width: 100%;
+        align-items: center;
+    }
+
+
+
+    .footer-div {
+        flex-direction: column;
+
+    }
+}
+
+.second {
+    height: 12rem;
+    width: 15rem;
+    padding-bottom: 2rem;
+}
+
+.second p {
+    text-align: center;
+}
+
+.mid {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.mid-first {
+    height: 20rem;
+    width: 15rem;
+    /* border: 1px solid red; */
+}
+
+.mid-first-2 {
+    height: 20rem;
+    width: 15rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 0.5rem; */
+    /* border: 1px solid magenta; */
+}
+
+.mid-second {
+    height: 9.5rem;
+    width: 7.2rem;
+}
+
+
+
+
+.mid-third {
+    height: 10rem;
+    width: 15rem;
+}
+
+
+.last {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.last-second {
+    height: 20rem;
+    width: 30rem;
+    /* border: 1px solid red; */
+}
+
+.card-holder {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    gap: 0.7rem;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+.card {
+    /* border-radius: 1rem; */
+    /* border: 1px solid blue; */
+    width: 15rem;
+}
+
+.card img {
+    height: 13rem;
+    width: 100%;
+}
+
+.card div {
+    padding: 1rem;
+}
+
+.card div button {
+    background-color: rgb(13, 133, 224);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+footer {
+    width: 100%;
+
+    background-color: rgb(221, 220, 219);
+}
+
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-card {
+    width: 20rem;
+    padding: 2rem;
+}
+
+#copyright {
+    margin-left: 5%;
+}
